@@ -75,6 +75,7 @@ def _triangles_and_degree_iter(G, nodes=None):
     See degree() and triangles() for definitions and details.
 
     """
+    
     if nodes is None:
         nodes_nbrs = G.adj.items()
     else:
